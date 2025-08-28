@@ -29,6 +29,6 @@ setup(name='yearfrac',
       license='MIT',
       packages=['yearfrac'],
       install_requires=[
-          'numpy>=1.14,<2'],
-      python_requires='>=3.6',
+          'numpy>=2.1.0'],
+      python_requires='>=3.9',
       zip_safe=True)
