@@ -1,3 +1,20 @@
+# yearfrac (numpy 2.0 compatible fork)
+
+This is an unofficial fork of [yearfrac](https://github.com/kmedian/yearfrac) 
+that adds compatibility with numpy 2.0+ and Python 3.9+.
+
+## Changes from Original:
+- ✅ Compatible with numpy 2.0+ (was restricted to <2.0)
+- ✅ Requires Python 3.9+ (was 3.6+)  
+- ✅ Fixed deprecated `assertEquals` in tests
+- ✅ Updated CI matrix to modern Python versions
+
+## Installation:
+```pip install git+https://github.com/TU_USERNAME/yearfrac-numpy2.git```
+
+---
+*Original README:*
+
 [![PyPI version](https://badge.fury.io/py/yearfrac.svg)](https://badge.fury.io/py/yearfrac)
 [![yearfrac](https://snyk.io/advisor/python/yearfrac/badge.svg)](https://snyk.io/advisor/python/yearfrac)
 
